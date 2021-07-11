@@ -1,3 +1,4 @@
+import numpy
 from numpy import mean
 from numpy import std
 from matplotlib import pyplot
