@@ -17,7 +17,7 @@ from sklearn.model_selection import train_test_split
  #loads data
 (trainX, trainY), (testX, testY) = mnist.load_data()
 
-# reshape dataset to have a single channel
+# reshape dataset
 trainX = trainX.reshape((60000, 28, 28, 1)).astype('float32') / 255.0
 testX = testX.reshape((10000, 28, 28, 1)).astype('float32') / 255.0
 
